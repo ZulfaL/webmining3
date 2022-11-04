@@ -32,8 +32,8 @@ nbclient.exceptions.CellTimeoutError: A cell timed out while it was being execut
 The message was: Cell execution timed out.
 Here is a preview of the cell contents:
 -------------------
-!git clone --depth=1 https://github.com/twintproject/twint.git
-%cd twint
-!pip3 install . -r requirements.txt
+['from Sastrawi.Stemmer.StemmerFactory import StemmerFactory', 'import swifter', '', '', '# create stemmer']
+...
+['def get_stemmed_term(document):', '    return [term_dict[term] for term in document]', '', "df_tweet['tweet'] = df_tweet['tweet'].swifter.apply(get_stemmed_term)", "df_tweet['tweet']"]
 -------------------
 
